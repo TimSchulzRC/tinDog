@@ -1,29 +1,26 @@
-#title {
-  background-color: #ff4c68;
-  color: #fff;
+body {
+  font-family: "Montserrat";
+  text-align: center;
 }
 
-body {
-  font-family: 'Montserrat';
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.5;
 }
 
 h1 {
-  font-family: 'Montserrat';
   font-weight: 900;
   font-size: 3.5rem;
-  line-height: 1.5;
 }
 
 h2 {
-  font-family: Montserrat;
-  font-weight: bold;
   font-size: 3rem;
-  line-height: 1.5;
-}
-
-h3 {
-  font-weight: bold;
-  font-size: 1.5rem;
 }
 
 p {
@@ -31,7 +28,7 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 7% 15%;
 }
 
 /* Navigation Bar */
@@ -40,7 +37,7 @@ p {
 }
 
 .navbar-brand {
-  font-family: 'Ubuntu';
+  font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: 500;
 }
@@ -53,6 +50,17 @@ p {
   font-size: 1.2rem;
   font-family: Montserrat;
   font-weight: 300;
+}
+
+/* Title */
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
 }
 
 /* Download Buttons */
@@ -70,13 +78,11 @@ p {
 
 /* Features */
 #features {
-  padding: 7% 15%;
   background-color: #fff;
   position: relative;
 }
 
 .feature {
-  text-align: center;
   padding: 7%;
 }
 
@@ -93,8 +99,8 @@ p {
   font-weight: 500;
 }
 
+/* Testimonials */
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
@@ -105,13 +111,10 @@ p {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
+/* Press */
 #press {
   background-color: #ef8172;
-  text-align: center;
+
   padding-bottom: 3%;
 }
 
@@ -120,9 +123,9 @@ p {
   margin: 20px 20px 50px;
 }
 
+/* Pricing */
 #pricing {
   padding: 10%;
-  text-align: center;
   font-weight: 500;
 }
 
@@ -130,11 +133,10 @@ p {
   padding: 3% 2%;
 }
 
+/* CTA */
 #cta {
   color: #fff;
   background-color: #ff4c68;
-  padding: 10% 20%;
-  text-align: center;
 }
 
 .cta-title {
@@ -148,11 +150,7 @@ p {
   margin: 3% 2% 0% 2%;
 }
 
-#footer {
-  text-align: center;
-  padding: 5%;
-}
-
+/* Footer */
 .footer-icon {
   padding: 2% 1%;
 }
